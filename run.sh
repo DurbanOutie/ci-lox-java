@@ -1,1 +1,1 @@
-java -cp out/bin lox.AstPrinter
+java -cp out/bin lox.Lox
