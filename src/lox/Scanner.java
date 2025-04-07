@@ -91,6 +91,8 @@ class Scanner {
                 while (peek() != '\n' && !isAtEnd()) {
                     advance();
                 }
+            } else {
+                addToken(TokenType.SLASH);
             }
             //Not Calling addToken(TokenType), Ignoring comments as tokens for now
             break;
